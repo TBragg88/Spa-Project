@@ -64,6 +64,13 @@ main {
     border-radius: 50%;
 }
 
+/* About */
+
+#team .team img {
+    width: 200px;
+    height: 200px;
+}
+
 /* Footer */
 #footer {
     margin-top: auto;
