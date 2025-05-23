@@ -41,7 +41,7 @@ main {
 /* Hero Section */
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("../images/hero.png");
+        url("../images/hero.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -49,24 +49,10 @@ main {
     padding: 8rem 0;
 }
 
-/* Footer */
-.footer {
-    margin-top: auto;
-    background-color: #6f4e37;
-    color: #ffebd4;
-}
-
-.footer .social-links i {
-    color:#ffebd4;
-    font-size: 1.5rem;
-    
-}
-
 
 /* Navigation */
 
-
-/* Cards */
+/* Services */
 #services .card {
     border: none;
 }
@@ -78,22 +64,33 @@ main {
 
 #services .card {
     margin-bottom: 1.5rem;
+}
 
 /* Testimonial Images */
-.testimonial-image {
+#testimonials .testimonial-image {
     width: 100px;
     height: 100px;
 }
 
-/* Rounded Images */
-.rounded-image {
+#testimonials .rounded-image {
     border-radius: 15px;
 }
 
+/* Footer */
+#footer {
+    margin-top: auto;
+    background-color: #6f4e37;
+    color: #ffebd4;
+}
 
- /* media quieries */
+#footer .social-links i {
+    color: #ffebd4;
+    font-size: 1.5rem;
+}
 
- /* Medium devices (tablets, 768px and up) */
+/* media quieries */
+
+/* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
     /* Make all service cards the same height for consistency */
     #services .card-body {
