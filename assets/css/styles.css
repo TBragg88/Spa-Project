@@ -1,25 +1,15 @@
-/* Typography */
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
     font-family: "Handlee", cursive;
 }
-
-/* Body and Layout */
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
 main {
     margin: 2rem 0;
 }
 
-/* Navbar */
+/* Navigation */
 .navbar {
     position: sticky;
     top: 0;
@@ -48,9 +38,6 @@ main {
     color: #ffebd4;
     padding: 8rem 0;
 }
-
-
-/* Navigation */
 
 /* Services */
 #services .card {
